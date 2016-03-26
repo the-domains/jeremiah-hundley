@@ -1,29 +1,41 @@
-name: 'Jeremiah Hundley '
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.22208
 title: Confessions of a Storyteller
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.5625
+  brandStrength: 0
+  lightness: 0.3125
+  brandColors:
+    - '#FFFFFF'
+    - '#0F1516'
+    - '#776F6E'
+    - '#B4B491'
+    - '#9ABDE9'
+  rhythmicContrast: 0.75
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+favicon: null
+name: 'Jeremiah Hundley '
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#050a04'
-    - '#485150'
-    - '#c0d0d7'
-    - '#f7ad78'
-    - '#8f9da0'
-  brandStrength: 0.125
-  lightness: 0.3125
-  saturation: 0.5625
-  rhythmicContrast: 0.75
-purpose: []
+typography_spectrum: 0.22208
+layout_spectrum: 0.9382384
